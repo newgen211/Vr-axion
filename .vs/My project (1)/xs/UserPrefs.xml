@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="123808ff-ef53-4b94-aaaf-60a9e7e98ee6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/Draw.cs">
+    <Files>
+      <File FileName="Assets/Scenes/Scripts/StackRenderer.cs" />
+      <File FileName="Assets/Scenes/volumerender/TransparentBlackShader.shader" />
+      <File FileName="Assets/Scenes/Scripts/RotateQuads.cs" />
+      <File FileName="Assets/Scenes/Scripts/CameraOrbit.cs" />
+      <File FileName="Assets/Scenes/Scripts/Draw.cs" Line="162" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
