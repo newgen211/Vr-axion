@@ -131,7 +131,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 553579087}
-  - component: {fileID: 553579086}
   m_Layer: 0
   m_Name: QuadGroup
   m_TagString: Untagged
@@ -139,19 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &553579086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553579085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da68ebce99815403ba357cf9fe2ffffb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 100
 --- !u!4 &553579087
 Transform:
   m_ObjectHideFlags: 0
@@ -390,6 +376,13 @@ MonoBehaviour:
   drawLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  sphereLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  sphereScale: {x: 0.05, y: 0.05, z: 0.05}
+  lineWidth: 0.05
+  colorThreshold: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  defaultAnnotationText: Neuron Annotation
 --- !u!1 &1929083813
 GameObject:
   m_ObjectHideFlags: 0

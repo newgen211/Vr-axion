@@ -354,7 +354,6 @@
 "Assets/Scenes/Scripts/AnnotationConfig.cs"
 "Assets/Scenes/Scripts/CameraOrbit.cs"
 "Assets/Scenes/Scripts/RaycastDraw.cs"
-"Assets/Scenes/Scripts/RotateQuads.cs"
 "Assets/Scenes/Scripts/SphereAnnotation.cs"
 "Assets/Scenes/Scripts/SphereAutoAnnotator.cs"
 "Assets/Scenes/Scripts/StackRenderer.cs"

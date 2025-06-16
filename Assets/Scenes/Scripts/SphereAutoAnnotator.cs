@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class SphereAutoAnnotator : MonoBehaviour
 {
-    // Analyzes the sphere's texture and auto-annotates if bright pixels exceed the threshold.
     public void AutoAnnotate(GameObject sphere, AnnotationConfig config)
     {
         Renderer renderer = sphere.GetComponent<Renderer>();
         if (renderer != null && renderer.material.mainTexture is Texture2D texture)
         {
+            if (!texture.isReadable)
+            {
+                Debug.LogWarning("Texture is not readable. Enable Read/Write in import settings.");
+                return;
+            }
+
             Color[] pixels = texture.GetPixels();
             int brightPixelCount = 0;
             foreach (Color pixel in pixels)

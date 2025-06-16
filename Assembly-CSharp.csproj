@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}</ProjectGuid>
+    <ProjectGuid>{AE2FCDA1-FF6E-B44B-A73E-621DAD72DD6D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,7 +65,6 @@
     <Compile Include="Assets/Scenes/Scripts/SphereAutoAnnotator.cs" />
     <Compile Include="Assets/Scenes/Scripts/StackRenderer.cs" />
     <Compile Include="Assets/Scenes/Scripts/SphereAnnotation.cs" />
-    <Compile Include="Assets/Scenes/Scripts/RotateQuads.cs" />
     <Compile Include="Assets/Scenes/Scripts/AnnotationConfig.cs" />
   </ItemGroup>
   <ItemGroup>
