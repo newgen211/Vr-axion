@@ -84,5 +84,5 @@ Annotations are stored in JSON format containing:
   ]
 }
 ```
-![Neuron Annotation View](images/Screenshot_1.png)
-![3D Stack Visualization](images/Screenshot_2.png)
+![Neuron Annotation View](images/Screenshot1.png)
+![3D Stack Visualization](images/Screenshot2.png)
